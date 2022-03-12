@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #98a5a5;
+}
+
+
+/* events shadow */
+
+#shadow {
+    text-shadow: 1px 1px blue;
+}
+
+
+/* footer */
+
+footer {
+    margin: 0%;
+    color: white;
+}
+
+
+/* contact@events */
+
+a#orange:hover {
+    text-decoration: underline;
+    color: orange !important;
+}
+
+
+/* main */
+
+span {
+    color: #509bd7;
+    text-align: left;
+    font-weight: bold;
+}

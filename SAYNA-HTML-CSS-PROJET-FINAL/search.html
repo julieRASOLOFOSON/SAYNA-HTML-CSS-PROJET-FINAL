@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-12 text-center ">
                     <img class="img-fluid" src="./assets/img/Images/group-2.svg" width="20%">
-                    <a href="#index" id="shadow" class=" fs-1">[Events]</a>
+                    <a href="./index.html" id="shadow" class=" fs-1">[Events]</a>
                 </div>
                 <div class="col-lg-6 sm-d-none">
                 </div>
@@ -29,10 +29,10 @@
                 <div class="col-lg-3 col-sm-12 text-end pt-5 ">
                     <ul class="list-inline d-inline-flex text-end">
                         <li class="list-inline-item">
-                            <a href="#search"><img src="./assets/img/Icones/search_icon.svg" width="20%">Search</a>
+                            <a href="./search.html"><img src="./assets/img/Icones/search_icon.svg" width="20%">Search</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#about"><img src="./assets/img/Icones/about_icon.svg" width="20%">About</a>
+                            <a href="./about.html"><img src="./assets/img/Icones/about_icon.svg" width="20%">About</a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#"> <img src="./assets/img/Icones/blog_icon.svg" width="20%">BLog</a>
@@ -47,16 +47,61 @@
     </header>
     <!-- article -->
     <article>
-        <div class="row ">
-            <div class="col-md-3 col-sm-12 m-2" style="background-color:#d35649">
-                <img src="./assets/img/Images/group-2.svg" width="40%" class="rounded float-start">
+        <!-- background-secondary -->
+        <div class="d-flex flex-column justify-content-end justify-content-md-center align-items-center top">
+            <div class=" container-fluid bg-secondary p-5 bg-opacity-25 mt-4 mb-4 ">
+                <h2 class="text-center text-secondary"><strong>Filter by location, host, subject, date, daytime:</strong></h2>
+                <br>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-1 col-sm-4 text-dark">
+                        <label for="" class="form-label text-start fw-bold">Location</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-1 col-sm-4 text-dark">
+                        <label for="" class="form-label text-start fw-bold">Host</label>
+                        <input type="text" class="form-control text-start fw-bold">
+                    </div>
+                    <div class="col-lg-1 col-sm-4 text-dark">
+                        <label for="" class="form-label text-start fw-bold">Subject</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-1 col-sm-4 text-dark">
+                        <label for="" class="form-label text-start fw-bold">Initial Date</label>
+                        <input type="date" class="form-control" placeholder="06/18/2020">
+                    </div>
+                    <div class="col-lg-1 col-sm-4  text-dark">
+                        <label for="" class="form-label text-start fw-bold">Final Date</label>
+                        <input type="date" class="form-control" placeholder="06/18/2020">
+                    </div>
+                    <div class="col-lg-1 col-sm-4 text-dark">
+                        <label for="" class="form-label text-start fw-bold">Daytime</label>
+                        <input type=" list" class="form-control" placeholder="Choose">
+                    </div>
+                    <div class="col-lg-2 col-sm-4 text-white">
+                        <button type="button" class="btn btn-primary mt-4">Search</button><button type="button" class="btn btn-warning mt-4 m-2 text-white">Clear Filter</button>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-12 m-2" style="background-color:#d35649">
-                <img src="./assets/img/Images/group-2.svg" class="rounded float-center" width="40%">
+        </div>
+        <h4 class="text-center text-secondary text-opacity-50"> Search Result Found 7 [Events] Nearby</h4>
+        <!--image  -->
+        <div class="d-flex flex-column justify-content-end justify-content-md-center align-items-center top m-4">
+            <div class="row"> 
+                <div class="col-3"></div>
+                <div class="col-md-2 col-sm-10 m-2" style="background-color:#d35649">
+                    <img href="./about.html" src="./assets/img/Images/group-2.svg" width="100%" class="img-fluid rounded float-center">
+                </div>
+                <div class="col-md-2 col-sm-10 m-2" style="background-color:#d35649">
+                    <img href="./about.html" src="./assets/img/Images/group-2.svg" class="img-fluid rounded float-center" width="100%">
+                </div>
+                <div class="col-md-2 col-sm-10 m-2" style="background-color:#d35649">
+                    <img href="./about.html" src="./assets/img/Images/group-2.svg" class="img-fluid rounded float-center" width="100%">
+                </div>
+                <div class="col-3"></div>
             </div>
-            <div class="col-md-3 col-sm-12 m-2" style="background-color:#d35649">
-                <img src="./assets/img/Images/group-2.svg" class="rounded float-end" width="40%">
-            </div>
+            
 
         </div>
 
@@ -65,17 +110,17 @@
     <footer>
         <!-- footer partie 1 -->
         <div class="container-fixed " style="background-color: #1f1f1f;">
-            <div class="row p-3">
+            <div class="row p-3 ">
                 <div class="col-2">
 
                 </div>
                 <!-- menu -->
                 <div class="col-3 text-center" style="border-top:solid 1px white;border-bottom: solid 1px white">
                     <ul class="list-inline">
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold">HOME</a></li>
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold"> SEARCH</a></li>
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold">ABOUT US</a></li>
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold">ADVERTISE</a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold">HOME</a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold"> SEARCH</a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold">ABOUT US</a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold">ADVERTISE</a></li>
                     </ul>
                 </div>
                 <!-- icon map -->
@@ -85,10 +130,10 @@
                 <!-- reseau sociaux -->
                 <div class="col-4 text-start" style="border-top:solid 1px white;border-bottom: solid 1px white">
                     <ul class="list-inline">
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold">FACEBOOK </a></li>
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold ">TWITTER </a></li>
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold">INSTAGRAM </a></li>
-                        <li class="list-inline-item p-3"><a href="#index" class="fs-6 fw-bold"> BLOG</a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold">FACEBOOK </a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold ">TWITTER </a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold">INSTAGRAM </a></li>
+                        <li class="list-inline-item p-3"><a href="./index.html" class="fs-6 fw-bold"> BLOG</a></li>
                     </ul>
                 </div>
                 <div class="col-2">
@@ -112,7 +157,7 @@
                 <!-- about -->
                 <div class="col-lg-4 col-sm-12 text-center">
                     <h6><b>About</b></h6>
-                    <p class="fs-6"> [Events) is an online plataform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="#" class="text-danger">learn more</a> </p>
+                    <p class="fs-6"> [Events) is an online plataform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="./search.html" class="text-danger">learn more</a> </p>
                 </div>
             </div>
         </div>

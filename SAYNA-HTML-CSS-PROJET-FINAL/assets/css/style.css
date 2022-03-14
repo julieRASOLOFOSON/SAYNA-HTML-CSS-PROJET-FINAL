@@ -22,6 +22,10 @@ footer {
     margin: 0%;
     color: white;
 }
+/* hover icon reseau sociaux */
+a.p-3:hover{
+    background-color: #509bd7;
+}
 
 
 /* contact@events */
@@ -32,10 +36,25 @@ a#orange:hover {
 }
 
 
-/* main */
+/* main page about*/
 
 span {
     color: #509bd7;
     text-align: left;
     font-weight: bold;
+}
+/* bouton"apply" */
+button.btn.btn-primary:hover{
+    background-color: #509bd7;
+
+}
+/* click to view more details */
+h3#souligné:hover{
+    text-decoration: underline;
+}
+/* figcaption */
+figcaption{
+    position:relative;
+    
+    
 }
